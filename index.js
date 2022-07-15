@@ -1,4 +1,4 @@
-clicker.addEventListener("click", goFlip);
+goFlip();
 
 function goFlip (){
 
