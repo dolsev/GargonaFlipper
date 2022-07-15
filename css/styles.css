@@ -1,0 +1,54 @@
+body {
+    background-color: #377d71;
+    color:#FBA1A1;
+}
+h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom:0;
+}
+p {
+    font-size: 0.5rem;
+}
+
+a {
+    color:#FBA1A1;
+}
+
+a:hover {
+  color:#FBC5C5;
+
+}
+
+.coin {
+    height: 25%;
+    width: 25%;
+    padding: 1rem 0 1rem 0 ;
+}
+
+.btn-primary
+{
+    --bs-btn-font-weight: 700;
+    --bs-btn-color:#FBC5C5;
+    --bs-btn-bg: #377d71;
+    --bs-btn-border-color:#FBC5C5;
+    --bs-btn-hover-color: #377d71;
+    --bs-btn-hover-bg: #FBC5C5;
+    --bs-btn-hover-border-color: #FBC5C5;
+    --bs-btn-active-bg: #FBC5C5;
+    --bs-btn-active-border-color: #00060f00;
+    --bs-btn-focus-shadow-rgb: 0,30,0;
+    --bs-btn-active-color: #31776b;
+    font-size: 1.5rem;
+
+}
+.container-fluid {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer {
+    text-align: center;
+margin-top: 2rem;
+}
