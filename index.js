@@ -1,5 +1,4 @@
-$("button").click(function(){
-    goFlip();})
+goFlip();
 
 function goFlip (){
 
