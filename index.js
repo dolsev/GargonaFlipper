@@ -1,10 +1,3 @@
-console.log("before click");
-let cycles = 0;
-cycles++
-$("button").click(function(){goFlip()});
-
-console.log("after click");
-
 function goFlip (){
 
     let randomNumber = Math.random();
@@ -21,3 +14,5 @@ function goFlip (){
         console.log("tails");
     }
     };
+$("button").click(function(){goFlip()});
+
