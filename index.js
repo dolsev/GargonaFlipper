@@ -1,5 +1,4 @@
 function goFlip (){
-
     let randomNumber = Math.random();
     if (randomNumber<0.5)
     {
@@ -14,5 +13,7 @@ function goFlip (){
         console.log("tails");
     }
     };
-$("button").click(function(){goFlip()});
-
+$("button").click(function(){
+document.querySelector("h1").innerText="FLIPPING!";
+    setTimeout(function(){
+        goFlip()},2000)});
