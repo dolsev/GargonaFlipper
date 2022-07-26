@@ -41,6 +41,7 @@ a:hover {
     --bs-btn-focus-shadow-rgb: 0,30,0;
     --bs-btn-active-color: #31776b;
     font-size: 1.5rem;
+        text-align: center;
 
 }
 .container-fluid {
